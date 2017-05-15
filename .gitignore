@@ -1,7 +1,34 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+
+# Local configuration file (sdk path, etc)
+local.properties
+fabric.properties
+
+# Intellij
+*.iml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/libraries
+.idea/dictionaries
+
+# Mac files
 .DS_Store
-/build
-/captures
+
+# Gradle files
+.gradle/
+build/
+
+# Android Studio captures folder
+captures/
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# Built application files
+*.apk
+
+# Keystore files
+*.jks
+keystore.properties
